@@ -16,6 +16,7 @@
 package com.example.cupcake
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -60,14 +61,26 @@ class SummaryFragment : Fragment() {
             sharedViewModel.date.value.toString(),
             sharedViewModel.price.value.toString()
         )
-        val intent = Intent(Intent.ACTION_SEND)
-            .setType("text/plain")
-            .putExtra(Intent.EXTRA_SUBJECT, getString(R.string.new_cupcake_order))
-            .putExtra(Intent.EXTRA_TEXT, orderSummary)
+        val phoneNumber = "+6282391613400"
 
+
+        val intent = Intent(
+            Intent.ACTION_VIEW, Uri.parse(
+                String.format(
+                    "https://api.whatsapp.com/send?phone=%s&text=%s",
+                    phoneNumber, orderSummary
+                )
+            )
+        )
+
+
+        // Check if there's an app that can handle this intent before launching it
         if (activity?.packageManager?.resolveActivity(intent, 0) != null) {
+            // Start a new activity with the given intent (this may open the share dialog on a
+            // device if multiple apps can handle this intent)
             startActivity(intent)
         }
+
     }
 
     fun cancelOrder() {
