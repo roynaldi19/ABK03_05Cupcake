@@ -45,12 +45,19 @@ class PickupFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding?.apply {
-            nextButton.setOnClickListener { goToNextScreen() }
+            lifecycleOwner = viewLifecycleOwner
+            viewModel = sharedViewModel
+            pickupFragment = this@PickupFragment
         }
     }
 
     fun goToNextScreen() {
         findNavController().navigate(R.id.action_pickupFragment_to_summaryFragment)
+    }
+
+    fun cancelOrder() {
+        sharedViewModel.resetOrder()
+        findNavController().navigate(R.id.action_pickupFragment_to_startFragment)
     }
 
     override fun onDestroyView() {
