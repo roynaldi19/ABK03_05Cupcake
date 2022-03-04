@@ -63,7 +63,6 @@ class SummaryFragment : Fragment() {
         )
         val phoneNumber = "+6282391613400"
 
-
         val intent = Intent(
             Intent.ACTION_VIEW, Uri.parse(
                 String.format(
@@ -73,14 +72,9 @@ class SummaryFragment : Fragment() {
             )
         )
 
-
-        // Check if there's an app that can handle this intent before launching it
         if (activity?.packageManager?.resolveActivity(intent, 0) != null) {
-            // Start a new activity with the given intent (this may open the share dialog on a
-            // device if multiple apps can handle this intent)
             startActivity(intent)
         }
-
     }
 
     fun cancelOrder() {
