@@ -26,7 +26,6 @@ import com.example.cupcake.databinding.FragmentStartBinding
 import com.example.cupcake.model.OrderViewModel
 
 class StartFragment : Fragment() {
-
     private var binding: FragmentStartBinding? = null
     private val sharedViewModel: OrderViewModel by activityViewModels()
 

@@ -26,7 +26,6 @@ import com.example.cupcake.databinding.FragmentFlavorBinding
 import com.example.cupcake.model.OrderViewModel
 
 class FlavorFragment : Fragment() {
-
     private var binding: FragmentFlavorBinding? = null
     private val sharedViewModel: OrderViewModel by activityViewModels()
 

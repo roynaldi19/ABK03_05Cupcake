@@ -12,7 +12,6 @@ private const val PRICE_PER_CUPCAKE = 2.00
 private const val PRICE_FOR_SAME_DAY_PICKUP = 3.00
 
 class OrderViewModel : ViewModel() {
-
     private val _quantity = MutableLiveData<Int>()
     val quantity: LiveData<Int> = _quantity
 
@@ -76,5 +75,4 @@ class OrderViewModel : ViewModel() {
         }
         return options
     }
-
 }

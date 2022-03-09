@@ -28,7 +28,6 @@ import com.example.cupcake.model.OrderViewModel
 
 
 class PickupFragment : Fragment() {
-
     private var binding: FragmentPickupBinding? = null
     private val sharedViewModel: OrderViewModel by activityViewModels()
 

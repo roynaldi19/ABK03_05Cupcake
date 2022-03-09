@@ -29,7 +29,6 @@ import com.example.cupcake.databinding.FragmentSummaryBinding
 import com.example.cupcake.model.OrderViewModel
 
 class SummaryFragment : Fragment() {
-
     private var binding: FragmentSummaryBinding? = null
     private val sharedViewModel: OrderViewModel by activityViewModels()
 
