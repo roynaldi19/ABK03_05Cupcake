@@ -1,26 +1,8 @@
-Cupcake app
-=================================
+# ABK03_05cupcake
 
-This app contains an order flow for cupcakes with options for quantity, flavor, and pickup date.
-The order details get displayed on an order summary screen and can be shared to another app to
-send the order.
-
-This app demonstrates multiple fragments in an activity, a shared ViewModel across fragments,
-data binding, LiveData, and the Jetpack Navigation component.
-
-
-Pre-requisites
---------------
-* Familiar with activities and fragments
-* How to use styles and themes in the UI
-* Basic understanding of Jetpack architecture components including ViewModel and LiveData
-* Data binding and binding expressions
-* Kotlin syntax basics
-
-
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+<p align="center">
+<img width="240" alt="Screenshot_2022-03-09-10-05-29-101_com example 1" src="https://user-images.githubusercontent.com/32328761/168969771-98a75924-c009-4223-a5db-8584940a1283.jpg">
+  <img width="240" alt="Screenshot_2022-03-09-10-05-29-101_com example 1" src="https://user-images.githubusercontent.com/32328761/168969778-d885cfcb-b52a-4133-986e-9080d2334315.jpg">
+  <img width="240" alt="Screenshot_2022-03-09-10-05-29-101_com example 1" src="https://user-images.githubusercontent.com/32328761/168969785-8332754d-7727-4344-8ff2-39d29f366728.jpg">
+  <img width="240" alt="Screenshot_2022-03-09-10-05-29-101_com example 1" src="https://user-images.githubusercontent.com/32328761/168969789-7f18fe16-d01d-4742-b06d-79b10e699759.jpg">
+  <img width="240" alt="Screenshot_2022-03-09-10-05-29-101_com example 1" src="https://user-images.githubusercontent.com/32328761/168969796-0c20eedd-fb8f-44e4-a7a9-8057be25d7b6.jpg">
