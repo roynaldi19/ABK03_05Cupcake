@@ -7,11 +7,11 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.cupcake.model.OrderViewModel" />
+            type="com.roynaldi19.cupcake.model.OrderViewModel" />
 
         <variable
             name="pickupFragment"
-            type="com.example.cupcake.PickupFragment" />
+            type="com.roynaldi19.cupcake.PickupFragment" />
     </data>
 
     <ScrollView

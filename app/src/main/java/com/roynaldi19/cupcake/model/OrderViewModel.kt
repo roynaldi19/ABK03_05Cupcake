@@ -1,4 +1,4 @@
-package com.example.cupcake.model
+package com.roynaldi19.cupcake.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

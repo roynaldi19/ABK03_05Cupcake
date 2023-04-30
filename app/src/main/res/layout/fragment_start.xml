@@ -7,7 +7,7 @@
     <data>
         <variable
             name="startFragment"
-            type="com.example.cupcake.StartFragment" />
+            type="com.roynaldi19.cupcake.StartFragment" />
     </data>
 
     <ScrollView

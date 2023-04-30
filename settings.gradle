@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Cupcake"
+rootProject.name = "GD1_03Cupcake"

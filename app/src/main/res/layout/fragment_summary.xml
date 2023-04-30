@@ -7,11 +7,11 @@
 
         <variable
             name="viewModel"
-            type="com.example.cupcake.model.OrderViewModel" />
+            type="com.roynaldi19.cupcake.model.OrderViewModel" />
 
         <variable
             name="summaryFragment"
-            type="com.example.cupcake.SummaryFragment" />
+            type="com.roynaldi19.cupcake.SummaryFragment" />
     </data>
 
     <ScrollView
